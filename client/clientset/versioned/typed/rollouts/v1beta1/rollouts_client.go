@@ -21,8 +21,8 @@ package v1beta1
 import (
 	"net/http"
 
-	"github.com/openkruise/kruise-rollout-api/client/clientset/versioned/scheme"
-	v1beta1 "github.com/openkruise/kruise-rollout-api/rollouts/v1beta1"
+	"github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/scheme"
+	v1beta1 "github.com/tiancheng92/kruise-rollout-api/rollouts/v1beta1"
 	rest "k8s.io/client-go/rest"
 )
 

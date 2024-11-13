@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"net/http"
 
-	rolloutsv1alpha1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1"
-	rolloutsv1beta1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1"
+	rolloutsv1alpha1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1"
+	rolloutsv1beta1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

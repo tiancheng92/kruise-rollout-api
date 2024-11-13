@@ -109,7 +109,7 @@
                 },
                 "requestHeaderModifier": {
                     "description": "Set overwrites the request with the given header (name, value) before the action.\n\nInput:\n  GET /foo HTTP/1.1\n  my-header: foo\n\nrequestHeaderModifier:\n  set:\n  - name: \"my-header\"\n    value: \"bar\"\n\nOutput:\n  GET /foo HTTP/1.1\n  my-header: bar",
-                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPRequestHeaderFilter"
+                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPHeaderFilter"
                 },
                 "weight": {
                     "description": "Weight indicate how many percentage of traffic the canary pods should receive",
@@ -708,7 +708,7 @@
                 },
                 "requestHeaderModifier": {
                     "description": "Set overwrites the request with the given header (name, value) before the action.\n\nInput:\n  GET /foo HTTP/1.1\n  my-header: foo\n\nrequestHeaderModifier:\n  set:\n  - name: \"my-header\"\n    value: \"bar\"\n\nOutput:\n  GET /foo HTTP/1.1\n  my-header: bar",
-                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPRequestHeaderFilter"
+                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPHeaderFilter"
                 },
                 "weight": {
                     "description": "Weight indicate how many percentage of traffic the canary pods should receive",
@@ -1053,7 +1053,7 @@
                 },
                 "requestHeaderModifier": {
                     "description": "Set overwrites the request with the given header (name, value) before the action.\n\nInput:\n  GET /foo HTTP/1.1\n  my-header: foo\n\nrequestHeaderModifier:\n  set:\n  - name: \"my-header\"\n    value: \"bar\"\n\nOutput:\n  GET /foo HTTP/1.1\n  my-header: bar",
-                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPRequestHeaderFilter"
+                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPHeaderFilter"
                 },
                 "traffic": {
                     "description": "Traffic indicate how many percentage of traffic the canary pods should receive Value is of string type and is a percentage, e.g. 5%.",
@@ -1641,7 +1641,7 @@
                 },
                 "requestHeaderModifier": {
                     "description": "Set overwrites the request with the given header (name, value) before the action.\n\nInput:\n  GET /foo HTTP/1.1\n  my-header: foo\n\nrequestHeaderModifier:\n  set:\n  - name: \"my-header\"\n    value: \"bar\"\n\nOutput:\n  GET /foo HTTP/1.1\n  my-header: bar",
-                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPRequestHeaderFilter"
+                    "$ref": "#/definitions/io.k8s.sigs.gateway-api.apis.v1beta1.HTTPHeaderFilter"
                 },
                 "traffic": {
                     "description": "Traffic indicate how many percentage of traffic the canary pods should receive Value is of string type and is a percentage, e.g. 5%.",

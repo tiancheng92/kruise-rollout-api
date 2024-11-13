@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	rolloutsv1beta1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned"
-	rolloutapi "github.com/openkruise/kruise-rollout-api/rollouts/v1beta1"
+	rolloutsv1beta1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned"
+	rolloutapi "github.com/tiancheng92/kruise-rollout-api/rollouts/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 

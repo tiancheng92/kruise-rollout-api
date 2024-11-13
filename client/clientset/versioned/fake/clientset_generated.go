@@ -19,11 +19,11 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/openkruise/kruise-rollout-api/client/clientset/versioned"
-	rolloutsv1alpha1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1"
-	fakerolloutsv1alpha1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1/fake"
-	rolloutsv1beta1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1"
-	fakerolloutsv1beta1 "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1/fake"
+	clientset "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned"
+	rolloutsv1alpha1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1"
+	fakerolloutsv1alpha1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1alpha1/fake"
+	rolloutsv1beta1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1"
+	fakerolloutsv1beta1 "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/typed/rollouts/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

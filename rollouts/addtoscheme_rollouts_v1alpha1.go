@@ -17,7 +17,7 @@ limitations under the License.
 package rollouts
 
 import (
-	"github.com/openkruise/kruise-rollout-api/rollouts/v1alpha1"
+	"github.com/tiancheng92/kruise-rollout-api/rollouts/v1alpha1"
 )
 
 func init() {

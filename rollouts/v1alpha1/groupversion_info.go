@@ -21,8 +21,8 @@ package v1alpha1
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-        
-        "github.com/openkruise/kruise-rollout-api/utils/scheme"
+
+	"github.com/tiancheng92/kruise-rollout-api/utils/scheme"
 )
 
 var (

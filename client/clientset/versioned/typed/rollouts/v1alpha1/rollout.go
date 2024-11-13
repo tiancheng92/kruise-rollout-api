@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	scheme "github.com/openkruise/kruise-rollout-api/client/clientset/versioned/scheme"
-	v1alpha1 "github.com/openkruise/kruise-rollout-api/rollouts/v1alpha1"
+	scheme "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/tiancheng92/kruise-rollout-api/rollouts/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

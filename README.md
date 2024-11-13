@@ -20,13 +20,13 @@ Code changes are made in that location, merged into `openkruise/rollouts` and la
 To get the latest version, use go1.16+ and fetch using the `go get` command. For example:
 
 ```
-go get github.com/openkruise/kruise-rollout-api@latest
+go get github.com/tiancheng92/kruise-rollout-api@latest
 ```
 
 To get a specific version, use go1.11+ and fetch the desired version using the `go get` command. For example:
 
 ```
-go get github.com/openkruise/kruise-rollout-api@v0.5.1
+go get github.com/tiancheng92/kruise-rollout-api@v0.5.1
 ```
 
 

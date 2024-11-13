@@ -15,7 +15,7 @@ import (
 	kubeopenapiutil "k8s.io/kube-openapi/pkg/util"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 
-	"github.com/openkruise/kruise-rollout-api/pkg/rollouts"
+	"github.com/tiancheng92/kruise-rollout-api/pkg/rollouts"
 )
 
 var K8SVersions = []int{18, 21, 24}
@@ -67,7 +67,7 @@ func generateOpenApiSchema(outputPath string, GetOpenAPIDefinitions func(ref com
 	// kruise.io group. Kustomize does not care about the name as long as all the links match up and the `x-kubernetes-group-version-kind`
 	// metadata is correct
 	var kruiseMappings = map[string]string{
-		"github.com/openkruise/kruise-rollout-api/rollouts": "rollouts.kruise.io",
+		"github.com/tiancheng92/kruise-rollout-api/rollouts": "rollouts.kruise.io",
 	}
 
 	defMap := GetOpenAPIDefinitions(func(path string) spec.Ref {

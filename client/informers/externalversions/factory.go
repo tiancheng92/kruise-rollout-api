@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/openkruise/kruise-rollout-api/client/clientset/versioned"
-	internalinterfaces "github.com/openkruise/kruise-rollout-api/client/informers/externalversions/internalinterfaces"
-	rollouts "github.com/openkruise/kruise-rollout-api/client/informers/externalversions/rollouts"
+	versioned "github.com/tiancheng92/kruise-rollout-api/client/clientset/versioned"
+	internalinterfaces "github.com/tiancheng92/kruise-rollout-api/client/informers/externalversions/internalinterfaces"
+	rollouts "github.com/tiancheng92/kruise-rollout-api/client/informers/externalversions/rollouts"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
